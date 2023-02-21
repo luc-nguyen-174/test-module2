@@ -132,8 +132,10 @@ public class Clients {
         int choiceSex = scanner.nextInt();
         String sex = "";
         if (choiceSex == 1) {
+            System.out.println("Nam");
             sex = "Nam";
         } else if (choiceSex == 2) {
+            System.out.println("Nữ");
             sex = "Nữ";
         }else {
             System.out.println("Lựa chọn sai, mời nhập lại 1 hoặc 2!");
